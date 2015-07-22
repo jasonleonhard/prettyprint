@@ -228,9 +228,9 @@ ___
 ##### If you would like an example of using google-code-prettify on websites (aka html instead of md), then fork this repo and render the html (They use the Monokai color syntax theme)
 
 
-[Here is a screenshot!](docs/prettyprint.png)
+![Here is a screenshot!](docs/prettyprint.png)
 
-[Absolute link screenshot!](https://github.com/un5t0ppab13/prettyprint/blob/master/docs/prettyprint.png)
+![Absolute link screenshot!](https://github.com/un5t0ppab13/prettyprint/blob/master/docs/prettyprint.png)
 
 
 ---
