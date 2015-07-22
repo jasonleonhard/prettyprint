@@ -1,6 +1,16 @@
 How to use google-code-prettify Github & websites
 ===
 
+
+If you would like an example of using google-code-prettify on websites (aka html instead of md), then fork this repo and render the html (They use the Monokai color syntax theme)
+
+<!-- best way to render images on github -->
+![alt tag](/prettyprint.png)
+
+<!-- alternative is a direct link, not as great -->
+<!--![alt tag](https://github.com/un5t0ppab13/prettyprint/blob/master/prettyprint.png)
+-->
+
 ---
 ## To read this document compare the following:
 
@@ -221,19 +231,6 @@ ___
 
 ### SUMMATION: Don't use \&lt; or \&gt; for \<pre> tags
 
-
----
-
-
-##### If you would like an example of using google-code-prettify on websites (aka html instead of md), then fork this repo and render the html (They use the Monokai color syntax theme)
-
-
-<!-- best way to render images on github -->
-![alt tag](/prettyprint.png)
-
-<!-- alternative is a direct link, not as great -->
-<!--![alt tag](https://github.com/un5t0ppab13/prettyprint/blob/master/prettyprint.png)
--->
 
 ---
 
