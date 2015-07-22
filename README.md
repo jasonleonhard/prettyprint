@@ -232,7 +232,8 @@ ___
 ![alt tag](/prettyprint.png)
 
 <!-- alternative is a direct link, not as great -->
-![alt tag](https://github.com/un5t0ppab13/prettyprint/blob/master/prettyprint.png)
+<!--![alt tag](https://github.com/un5t0ppab13/prettyprint/blob/master/prettyprint.png)
+-->
 
 ---
 
