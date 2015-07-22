@@ -1,0 +1,142 @@
+<!-- Put code snippets in <pre class="prettyprint">...</pre> or <code class="prettyprint">...</code> and it will automatically be pretty printed. -->
+<head>
+<!--   <link rel="stylesheet" type="text/css" href="monokai_for_google_prettyprint.css"> -->
+  <link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/un5t0ppab13/css/master/monokai_for_google_prettyprint.css">
+  <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+</head>
+
+<!-- example 1 javascript -->
+<pre class="prettyprint">
+
+  var h = document.getElementsByClassName("entry-header")[0]; h.remove(); // even comments
+  var h2 = document.getElementsByClassName("head-panel")[0]; h2.remove();
+  var h3 = document.getElementsByClassName("headerNavigationBar")[0]; h3.remove();
+  var h4 = document.getElementsByClassName("columnB")[0]; h4.remove();
+
+
+</pre>
+
+
+
+<!--DO THIS: example 2 html hack to make prettyprint recognize html -->
+<!-- may want to save as seperate file and then just sed replace < with &lt;  and > with &gt;  -->
+<pre class="prettyprint lang-html">
+
+  &lt;div id="code-example"&gt;
+      
+    &lt;h1&gt;My First Heading&lt;/h1&gt;
+    &lt;p&gt;My first paragraph&lt;/p&gt;
+
+  &lt;/div&gt;
+  
+</pre>
+
+
+<!-- DO NOT DO THIS (unless you want the code to render: example 2 html notice html not working -->
+<pre class="prettyprint lang-html">
+    <code class="lang-html">
+      <h1>My First Heading</h1>
+      <p>My first paragraph</p>
+  </code>
+</pre>
+<!-- consider if code then insert <pre class="prettyprint">   -->
+
+
+
+
+<!-- example 3 css also not working -->
+<pre class="prettyprint lang-css">
+
+  /************ MONOKAI THEME FOR GOOGLE PRETTIFY ************/
+  pre.prettyprint { 
+    display: block; 
+    background-color: #272822; 
+    padding:1em;
+    overflow:scroll;
+  }
+  /* Orange Highlight */
+  pre *::selection{
+     background: #9d550f;   /* orange */
+      color: #F8F8F0;       /* whitish */
+  }
+  pre *::-moz-selection{
+      background: #9d550f;  /* orange */
+      color: #F8F8F0;       /* whitish */
+  }
+  /******************** PRETTIFY COLORS ***********************/
+  pre .nocode { background-color: none; color: #000 }
+  pre .str { color: #E6DB74 } /* string          - yellow     */
+  pre .kwd { color: #66D9EF;} /* keyword         - blue       */
+  pre .com { color: #75715E } /* comment         - grey/green */
+  pre .typ { color: #66D9EF } /* type            - blue       */
+  pre .lit { color: #AE81FF } /* literal         - purple     */
+  pre .pun { color: #F8F8F0 } /* punctuation     - whitish    */
+  pre .pln { color: #F8F8F0 } /* plaintext       - whitish    */
+  pre .tag { color: #F92672;} /* html/xml tag    - pink/red   */
+  pre .atn { color: #a0e22a;} /* attribute name  - green      */
+  pre .atv { color: #E6DB74 } /* attribute value - yellow     */
+  pre .dec { color: #F8F8F0 } /* decimal         - whitish    */
+  @media screen {
+      /* CSS STYLES - specify class=lang-css on pre */
+      pre.lang-css .pln{ color:#a0e22a; }  /* plaintext - green    */
+      pre.lang-css .lit{ color:#F92672; }  /* literal   - pink/red */
+
+      /* JS STYLES - specify class=lang-js on pre */
+      pre.lang-js .kwd{ color:#AE81FF; }  /* keyword  - purple */
+
+      /* SQL STYLES - specify class=lang-sql on pre */
+      pre.lang-sql .kwd{ color:#F92672; }  /* keyword  - pink/red */
+  }
+  /******************** LINE NUMBERS ***********************/
+  /* Specify class=linenums on a pre to get line numbering */
+  pre.prettyprint ol.linenums { 
+    margin-top: 0; 
+    margin-bottom: 0; 
+    color: #8f908a;
+  }
+  /* Remove the trailing . from ol li */
+  pre.prettyprint ol.linenums { 
+    counter-reset: item;
+    padding-left: 0em;
+    list-style-type: none;
+  }
+  pre.prettyprint ol.linenums li{
+    display: block;
+  }
+  pre.prettyprint ol.linenums li:before { 
+      content: counter(item) "  "; 
+      counter-increment: item 
+  }
+  pre.prettyprint ol.linenums li span:first-child {
+      margin-left: 0.5em;
+  }
+  /**************** SPECIAL LINE NUMBERS ****************/
+  /*  Add styles for alternating rows or count by 5/10  */
+  /* Highlight Line Numbers, but not 5 and 10 */
+  li.L0,li.L1,li.L2,li.L3,li.L5,li.L6,li.L7,li.L8 { 
+    /* list-style-type: none */
+  }
+  /* Highlight Line Numbers 5 & 10 */
+  li.L4,li.L9{
+  }
+  /* Highlight alternate shading for lines */
+  li.L1,li.L3,li.L5,li.L7,li.L9 { 
+     /* background-color:#2e2f29; */
+  }
+  /******************* PRINT STYLES *******************/
+  @media print {
+    pre.prettyprint { background-color: none }
+    pre .str, code .str { color: #060 }
+    pre .kwd, code .kwd { color: #006; font-weight: bold }
+    pre .com, code .com { color: #600; font-style: italic }
+    pre .typ, code .typ { color: #404; font-weight: bold }
+    pre .lit, code .lit { color: #044 }
+    pre .pun, code .pun { color: #440 }
+    pre .pln, code .pln { color: #000 }
+    pre .tag, code .tag { color: #006; font-weight: bold }
+    pre .atn, code .atn { color: #404 }
+    pre .atv, code .atv { color: #060 }
+  }
+
+
+</pre>
