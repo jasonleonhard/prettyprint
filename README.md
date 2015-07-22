@@ -234,6 +234,13 @@ ___
 
 ![alt tag](docs/prettyprint.png)
 
+
+![alt tag](https://github.com/un5t0ppab13/prettyprint/blob/master/prettyprint.png)
+
+
+![alt tag](/prettyprint.png)
+
+
 ---
 
 [google-code-prettify](https://code.google.com/p/google-code-prettify/wiki/GettingStarted#Serving_your_own_JS_&_CSS)
